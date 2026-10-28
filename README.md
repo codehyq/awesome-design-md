@@ -77,6 +77,18 @@ You can [request a DESIGN.md](https://getdesign.md/request) for specific website
 
 ## Collection
 
+### 场景风格库 / Application styles
+
+This fork adds a buildless local catalog alongside the original collection.
+
+- [浏览分类页 / Browse the catalog](catalog/index.html) — search all 84 original references and the new application style.
+- [Clear Ledger · 清账 / 清爽工具型](design-md/ledger-clean/README.md) — an original mobile bookkeeping system with a [DESIGN.md](design-md/ledger-clean/DESIGN.md), [component preview](design-md/ledger-clean/preview.html), and [interactive app demo](design-md/ledger-clean/demo.html).
+- [运行、扩展与验证说明](catalog/README.md).
+
+From the repository root, run `node scripts/serve.mjs` and open `http://127.0.0.1:8765/catalog/`. HTTP is required for ES modules and JSON. No npm install, API key, or runtime third-party service is required.
+
+Original brand entries keep their existing documents and external previews. The bookkeeping demo uses fictional data and browser-local storage, with no server-side account system. Upstream previews described below remain external; this fork's local HTML previews currently cover Clear Ledger only.
+
 ### AI & LLM Platforms
 
 - [**Claude**](https://getdesign.md/claude/design-md) - Anthropic's AI assistant. Warm terracotta accent, clean editorial layout
