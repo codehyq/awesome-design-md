@@ -1,0 +1,1416 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "bookkeeping",
+      "label": "记账应用"
+    },
+    {
+      "id": "ai",
+      "label": "AI 与大模型"
+    },
+    {
+      "id": "developer",
+      "label": "开发工具"
+    },
+    {
+      "id": "backend",
+      "label": "后端与基础设施"
+    },
+    {
+      "id": "productivity",
+      "label": "效率与 SaaS"
+    },
+    {
+      "id": "creative",
+      "label": "设计与创意"
+    },
+    {
+      "id": "finance",
+      "label": "金融与支付"
+    },
+    {
+      "id": "commerce",
+      "label": "电商与零售"
+    },
+    {
+      "id": "consumer",
+      "label": "媒体与消费科技"
+    },
+    {
+      "id": "automotive",
+      "label": "汽车"
+    },
+    {
+      "id": "retro",
+      "label": "复古网页"
+    }
+  ],
+  "styles": [
+    {
+      "id": "ledger-clean",
+      "name": "清爽工具型",
+      "subtitle": "Clear Ledger · 清账",
+      "category": "bookkeeping",
+      "categoryLabel": "记账应用",
+      "kind": "original",
+      "description": "清晰的数字层级，克制的蓝色，专注每一天的收支。适合快速记账、预算管理与月度复盘。",
+      "tags": [
+        "移动端",
+        "浅色",
+        "工具型",
+        "记账"
+      ],
+      "accent": "#315bdb",
+      "design": "../design-md/ledger-clean/DESIGN.md",
+      "demo": "../design-md/ledger-clean/demo.html",
+      "preview": "../design-md/ledger-clean/preview.html",
+      "cover": "../design-md/ledger-clean/cover.png",
+      "screens": 4
+    },
+    {
+      "id": "1win",
+      "name": "1win",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Crypto casino and sportsbook. Near-black canvas, vivid green action color, dense game-tile rails",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#00b24b",
+      "design": "../design-md/1win/DESIGN.md",
+      "external": "https://getdesign.md/1win/design-md"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "Travel marketplace. Warm coral accent, photography-driven, rounded UI",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#ff385c",
+      "design": "../design-md/airbnb/DESIGN.md",
+      "external": "https://getdesign.md/airbnb/design-md"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#181d26",
+      "design": "../design-md/airtable/DESIGN.md",
+      "external": "https://getdesign.md/airtable/design-md"
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Global news network. Flat white paper, dense Roboto headlines, orange signature and live red",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#fa9000",
+      "design": "../design-md/aljazeera/DESIGN.md",
+      "external": "https://getdesign.md/aljazeera/design-md"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Consumer electronics. Premium white space, SF Pro, cinematic imagery",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#0066cc",
+      "design": "../design-md/apple/DESIGN.md",
+      "external": "https://getdesign.md/apple/design-md"
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#fcd535",
+      "design": "../design-md/binance/DESIGN.md",
+      "external": "https://getdesign.md/binance/design-md"
+    },
+    {
+      "id": "bmw",
+      "name": "BMW",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Luxury automotive. Dark premium surfaces, precise German engineering aesthetic",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#1c69d4",
+      "design": "../design-md/bmw/DESIGN.md",
+      "external": "https://getdesign.md/bmw/design-md"
+    },
+    {
+      "id": "bmw-m",
+      "name": "BMW M",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#ffffff",
+      "design": "../design-md/bmw-m/DESIGN.md",
+      "external": "https://getdesign.md/bmw-m/design-md"
+    },
+    {
+      "id": "bugatti",
+      "name": "Bugatti",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#ffffff",
+      "design": "../design-md/bugatti/DESIGN.md",
+      "external": "https://getdesign.md/bugatti/design-md"
+    },
+    {
+      "id": "cal",
+      "name": "Cal.com",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Open-source scheduling. Clean neutral UI, developer-oriented simplicity",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#111111",
+      "design": "../design-md/cal/DESIGN.md",
+      "external": "https://getdesign.md/cal/design-md"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Anthropic's AI assistant. Warm terracotta accent, clean editorial layout",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#cc785c",
+      "design": "../design-md/claude/DESIGN.md",
+      "external": "https://getdesign.md/claude/design-md"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Creative agency. Organic shapes, soft gradients, art-directed layout",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#0a0a0a",
+      "design": "../design-md/clay/DESIGN.md",
+      "external": "https://getdesign.md/clay/design-md"
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Fast analytics database. Yellow-accented, technical documentation style",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#faff69",
+      "design": "../design-md/clickhouse/DESIGN.md",
+      "external": "https://getdesign.md/clickhouse/design-md"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#17171c",
+      "design": "../design-md/cohere/DESIGN.md",
+      "external": "https://getdesign.md/cohere/design-md"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Crypto exchange. Clean blue identity, trust-focused, institutional feel",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#0052ff",
+      "design": "../design-md/coinbase/DESIGN.md",
+      "external": "https://getdesign.md/coinbase/design-md"
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Tool integration platform. Modern dark with colorful integration icons",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#0007cd",
+      "design": "../design-md/composio/DESIGN.md",
+      "external": "https://getdesign.md/composio/design-md"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "AI-first code editor. Sleek dark interface, gradient accents",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#f54e00",
+      "design": "../design-md/cursor/DESIGN.md",
+      "external": "https://getdesign.md/cursor/design-md"
+    },
+    {
+      "id": "dell-1996",
+      "name": "Dell (1996)",
+      "subtitle": "复古网页",
+      "category": "retro",
+      "categoryLabel": "复古网页",
+      "kind": "reference",
+      "description": "Catalog-era enterprise web. Literal black page frame, flat color-block \"ribbon cards\", chunky Helvetica-Black titles over Times Roman body, and hand-cut GIF stickers (NEW! bursts, award seals, beveled product photos).",
+      "tags": [
+        "复古网页",
+        "品牌参考"
+      ],
+      "accent": "#e91d2a",
+      "design": "../design-md/dell-1996/DESIGN.md",
+      "external": "https://getdesign.md/dell-1996/design-md"
+    },
+    {
+      "id": "dji",
+      "name": "DJI",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Drone and camera maker. Studio product tiles, engineering-blue pills, tight Open Sans",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#0070d5",
+      "design": "../design-md/dji/DESIGN.md",
+      "external": "https://getdesign.md/dji/design-md"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI voice platform. Dark cinematic UI, audio-waveform aesthetics",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#292524",
+      "design": "../design-md/elevenlabs/DESIGN.md",
+      "external": "https://getdesign.md/elevenlabs/design-md"
+    },
+    {
+      "id": "expo",
+      "name": "Expo",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "React Native platform. Dark theme, tight letter-spacing, code-centric",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/expo/DESIGN.md",
+      "external": "https://getdesign.md/expo/design-md"
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#da291c",
+      "design": "../design-md/ferrari/DESIGN.md",
+      "external": "https://getdesign.md/ferrari/design-md"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Collaborative design tool. Vibrant multi-color, playful yet professional",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/figma/DESIGN.md",
+      "external": "https://getdesign.md/figma/design-md"
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Website builder. Bold black and blue, motion-first, design-forward",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#ffffff",
+      "design": "../design-md/framer/DESIGN.md",
+      "external": "https://getdesign.md/framer/design-md"
+    },
+    {
+      "id": "hashicorp",
+      "name": "HashiCorp",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Infrastructure automation. Enterprise-clean, black and white",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/hashicorp/DESIGN.md",
+      "external": "https://getdesign.md/hashicorp/design-md"
+    },
+    {
+      "id": "hp",
+      "name": "HP",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "PC and printer maker. Pure white canvas, HP Electric Blue signal CTA, geometric Forma DJR Micro, blue chevron decorations",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#024ad8",
+      "design": "../design-md/hp/DESIGN.md",
+      "external": "https://getdesign.md/hp/design-md"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Enterprise technology. Carbon design system, structured blue palette",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#0f62fe",
+      "design": "../design-md/ibm/DESIGN.md",
+      "external": "https://getdesign.md/ibm/design-md"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Customer messaging. Friendly blue palette, conversational UI patterns",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#111111",
+      "design": "../design-md/intercom/DESIGN.md",
+      "external": "https://getdesign.md/intercom/design-md"
+    },
+    {
+      "id": "jobright",
+      "name": "Jobright",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI job-hunting platform. Spring-mint green, black pill buttons, condensed Titillium headlines",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#00f0a0",
+      "design": "../design-md/jobright/DESIGN.md",
+      "external": "https://getdesign.md/jobright/design-md"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Crypto trading platform. Purple-accented dark UI, data-dense dashboards",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/kraken/DESIGN.md",
+      "external": "https://getdesign.md/kraken/design-md"
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Luxury automotive. True black cathedral, gold accent, LamboType custom Neo-Grotesk",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/lamborghini/DESIGN.md",
+      "external": "https://getdesign.md/lamborghini/design-md"
+    },
+    {
+      "id": "linear.app",
+      "name": "Linear",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Project management for engineers. Ultra-minimal, precise, purple accent",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#5e6ad2",
+      "design": "../design-md/linear.app/DESIGN.md",
+      "external": "https://getdesign.md/linear.app/design-md"
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "AI full-stack builder. Playful gradients, friendly dev aesthetic",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/lovable/DESIGN.md",
+      "external": "https://getdesign.md/lovable/design-md"
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Global payments network. Warm cream canvas, orbital pill shapes, editorial warmth",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/mastercard/DESIGN.md",
+      "external": "https://getdesign.md/mastercard/design-md"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Startup banking platform. Ink-violet night world, indigo action pill, light custom sans",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#5266eb",
+      "design": "../design-md/mercury/DESIGN.md",
+      "external": "https://getdesign.md/mercury/design-md"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#0064e0",
+      "design": "../design-md/meta/DESIGN.md",
+      "external": "https://getdesign.md/meta/design-md"
+    },
+    {
+      "id": "minimax",
+      "name": "Minimax",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI model provider. Bold dark interface with neon accents",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#0a0a0a",
+      "design": "../design-md/minimax/DESIGN.md",
+      "external": "https://getdesign.md/minimax/design-md"
+    },
+    {
+      "id": "mintlify",
+      "name": "Mintlify",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Documentation platform. Clean, green-accented, reading-optimized",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#0a0a0a",
+      "design": "../design-md/mintlify/DESIGN.md",
+      "external": "https://getdesign.md/mintlify/design-md"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Visual collaboration. Bright yellow accent, infinite canvas aesthetic",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#1c1c1e",
+      "design": "../design-md/miro/DESIGN.md",
+      "external": "https://getdesign.md/miro/design-md"
+    },
+    {
+      "id": "mistral.ai",
+      "name": "Mistral AI",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Open-weight LLM provider. French-engineered minimalism, purple-toned",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#fa520f",
+      "design": "../design-md/mistral.ai/DESIGN.md",
+      "external": "https://getdesign.md/mistral.ai/design-md"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Document database. Green leaf branding, developer documentation focus",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#00ed64",
+      "design": "../design-md/mongodb/DESIGN.md",
+      "external": "https://getdesign.md/mongodb/design-md"
+    },
+    {
+      "id": "mydealz",
+      "name": "mydealz",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "German deals community. Dense white-card feed, hot and cold voting pill, brand green",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#30a83c",
+      "design": "../design-md/mydealz/DESIGN.md",
+      "external": "https://getdesign.md/mydealz/design-md"
+    },
+    {
+      "id": "nerdwallet",
+      "name": "NerdWallet",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Personal finance comparison platform. Deep spruce green, mint washes, near-square corners",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#008254",
+      "design": "../design-md/nerdwallet/DESIGN.md",
+      "external": "https://getdesign.md/nerdwallet/design-md"
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#111111",
+      "design": "../design-md/nike/DESIGN.md",
+      "external": "https://getdesign.md/nike/design-md"
+    },
+    {
+      "id": "nintendo-2001",
+      "name": "Nintendo.com (2001)",
+      "subtitle": "复古网页",
+      "category": "retro",
+      "categoryLabel": "复古网页",
+      "kind": "reference",
+      "description": "Y2K \"console chrome\" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art wordmarks over circuit-board hero fields, and a pixel Mario welcome bubble.",
+      "tags": [
+        "复古网页",
+        "品牌参考"
+      ],
+      "accent": "#e60012",
+      "design": "../design-md/nintendo-2001/DESIGN.md",
+      "external": "https://getdesign.md/nintendo-2001/design-md"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "All-in-one workspace. Warm minimalism, serif headings, soft surfaces",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#5645d4",
+      "design": "../design-md/notion/DESIGN.md",
+      "external": "https://getdesign.md/notion/design-md"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "GPU computing. Green-black energy, technical power aesthetic",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#76b900",
+      "design": "../design-md/nvidia/DESIGN.md",
+      "external": "https://getdesign.md/nvidia/design-md"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Run LLMs locally. Terminal-first, monochrome simplicity",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/ollama/DESIGN.md",
+      "external": "https://getdesign.md/ollama/design-md"
+    },
+    {
+      "id": "opencode.ai",
+      "name": "OpenCode AI",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI coding platform. Developer-centric dark theme",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#201d1d",
+      "design": "../design-md/opencode.ai/DESIGN.md",
+      "external": "https://getdesign.md/opencode.ai/design-md"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Enterprise cloud and database software. Warm neutral ladder, charcoal-only actions, red saved for the wordmark",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#312d2a",
+      "design": "../design-md/oracle/DESIGN.md",
+      "external": "https://getdesign.md/oracle/design-md"
+    },
+    {
+      "id": "oura",
+      "name": "Oura",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Smart ring wellness brand. Warm paper cream, editorial serif, earth-tone accents",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#2a72de",
+      "design": "../design-md/oura/DESIGN.md",
+      "external": "https://getdesign.md/oura/design-md"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Visual discovery platform. Red accent, masonry grid, image-first",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#e60023",
+      "design": "../design-md/pinterest/DESIGN.md",
+      "external": "https://getdesign.md/pinterest/design-md"
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Gaming console retail. Three-surface channel layout, cyan hover-scale interaction",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#0070d1",
+      "design": "../design-md/playstation/DESIGN.md",
+      "external": "https://getdesign.md/playstation/design-md"
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Product analytics. Playful hedgehog branding, developer-friendly dark UI",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#f7a501",
+      "design": "../design-md/posthog/DESIGN.md",
+      "external": "https://getdesign.md/posthog/design-md"
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "Productivity launcher. Sleek dark chrome, vibrant gradient accents",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#ffffff",
+      "design": "../design-md/raycast/DESIGN.md",
+      "external": "https://getdesign.md/raycast/design-md"
+    },
+    {
+      "id": "renault",
+      "name": "Renault",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#ffed00",
+      "design": "../design-md/renault/DESIGN.md",
+      "external": "https://getdesign.md/renault/design-md"
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Run ML models via API. Clean white canvas, code-forward",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#ea2804",
+      "design": "../design-md/replicate/DESIGN.md",
+      "external": "https://getdesign.md/replicate/design-md"
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Email API for developers. Minimal dark theme, monospace accents",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#fcfdff",
+      "design": "../design-md/resend/DESIGN.md",
+      "external": "https://getdesign.md/resend/design-md"
+    },
+    {
+      "id": "revolut",
+      "name": "Revolut",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Digital banking. Sleek dark interface, gradient cards, fintech precision",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#494fdf",
+      "design": "../design-md/revolut/DESIGN.md",
+      "external": "https://getdesign.md/revolut/design-md"
+    },
+    {
+      "id": "runwayml",
+      "name": "Runway",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI creative-tools platform with an editorial film-festival aesthetic — cinematic dark heroes, paper-white reading bands, single proprietary sans, and pure black pill CTAs.",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/runwayml/DESIGN.md",
+      "external": "https://getdesign.md/runwayml/design-md"
+    },
+    {
+      "id": "sanity",
+      "name": "Sanity",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Headless content platform with a dark-first editorial marketing surface — 112px display type, IBM Plex Mono technical eyebrows, and a single coral-red accent reserved for the highest-priority CTA.",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/sanity/DESIGN.md",
+      "external": "https://getdesign.md/sanity/design-md"
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Enterprise business software. White canvas, flat blue bands, application-frame chrome",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#0057d2",
+      "design": "../design-md/sap/DESIGN.md",
+      "external": "https://getdesign.md/sap/design-md"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Error monitoring. Dark dashboard, data-dense, pink-purple accent",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#150f23",
+      "design": "../design-md/sentry/DESIGN.md",
+      "external": "https://getdesign.md/sentry/design-md"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/shopify/DESIGN.md",
+      "external": "https://getdesign.md/shopify/design-md"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Workplace messaging. Deep aubergine, cream-lavender surfaces and pill-shaped actions.",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#4a154b",
+      "design": "../design-md/slack/DESIGN.md",
+      "external": "https://getdesign.md/slack/design-md"
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Space technology. Stark black and white, full-bleed imagery, futuristic",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/spacex/DESIGN.md",
+      "external": "https://getdesign.md/spacex/design-md"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Music streaming. Vibrant green on dark, bold type, album-art-driven",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/spotify/DESIGN.md",
+      "external": "https://getdesign.md/spotify/design-md"
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks",
+      "subtitle": "电商与零售",
+      "category": "commerce",
+      "categoryLabel": "电商与零售",
+      "kind": "reference",
+      "description": "Coffee retail flagship. Four-tier earth-green system, warm cream canvas, proprietary SoDoSans typography",
+      "tags": [
+        "电商与零售",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/starbucks/DESIGN.md",
+      "external": "https://getdesign.md/starbucks/design-md"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "Payment infrastructure. Signature purple gradients, weight-300 elegance",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#533afd",
+      "design": "../design-md/stripe/DESIGN.md",
+      "external": "https://getdesign.md/stripe/design-md"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "subtitle": "后端与基础设施",
+      "category": "backend",
+      "categoryLabel": "后端与基础设施",
+      "kind": "reference",
+      "description": "Open-source Firebase alternative. Dark emerald theme, code-first",
+      "tags": [
+        "后端与基础设施",
+        "品牌参考"
+      ],
+      "accent": "#3ecf8e",
+      "design": "../design-md/supabase/DESIGN.md",
+      "external": "https://getdesign.md/supabase/design-md"
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "Fast email client. Premium dark UI, keyboard-first, purple glow",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#1b1938",
+      "design": "../design-md/superhuman/DESIGN.md",
+      "external": "https://getdesign.md/superhuman/design-md"
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "subtitle": "汽车",
+      "category": "automotive",
+      "categoryLabel": "汽车",
+      "kind": "reference",
+      "description": "Electric vehicles. Radical subtraction, cinematic full-viewport photography, Universal Sans",
+      "tags": [
+        "汽车",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/tesla/DESIGN.md",
+      "external": "https://getdesign.md/tesla/design-md"
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Tech editorial media. Acid-mint and ultraviolet accents, Manuka display type",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#54637d",
+      "design": "../design-md/theverge/DESIGN.md",
+      "external": "https://getdesign.md/theverge/design-md"
+    },
+    {
+      "id": "together.ai",
+      "name": "Together AI",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Open-source AI infrastructure. Technical, blueprint-style design",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/together.ai/DESIGN.md",
+      "external": "https://getdesign.md/together.ai/design-md"
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Mobility platform. Bold black and white, tight type, urban energy",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/uber/DESIGN.md",
+      "external": "https://getdesign.md/uber/design-md"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "Frontend deployment platform. Black and white precision, Geist font",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#171717",
+      "design": "../design-md/vercel/DESIGN.md",
+      "external": "https://getdesign.md/vercel/design-md"
+    },
+    {
+      "id": "vodafone",
+      "name": "Vodafone",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#e60000",
+      "design": "../design-md/vodafone/DESIGN.md",
+      "external": "https://getdesign.md/vodafone/design-md"
+    },
+    {
+      "id": "voltagent",
+      "name": "VoltAgent",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "AI agent framework. Void-black canvas, emerald accent, terminal-native",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#00d992",
+      "design": "../design-md/voltagent/DESIGN.md",
+      "external": "https://getdesign.md/voltagent/design-md"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "subtitle": "开发工具",
+      "category": "developer",
+      "categoryLabel": "开发工具",
+      "kind": "reference",
+      "description": "Modern terminal. Dark IDE-like interface, block-based command UI",
+      "tags": [
+        "开发工具",
+        "品牌参考"
+      ],
+      "accent": "#f7f5f0",
+      "design": "../design-md/warp/DESIGN.md",
+      "external": "https://getdesign.md/warp/design-md"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "subtitle": "设计与创意",
+      "category": "creative",
+      "categoryLabel": "设计与创意",
+      "kind": "reference",
+      "description": "Visual web builder. Blue-accented, polished marketing site aesthetic",
+      "tags": [
+        "设计与创意",
+        "品牌参考"
+      ],
+      "accent": "#080808",
+      "design": "../design-md/webflow/DESIGN.md",
+      "external": "https://getdesign.md/webflow/design-md"
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "subtitle": "媒体与消费科技",
+      "category": "consumer",
+      "categoryLabel": "媒体与消费科技",
+      "kind": "reference",
+      "description": "Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links",
+      "tags": [
+        "媒体与消费科技",
+        "品牌参考"
+      ],
+      "accent": "#000000",
+      "design": "../design-md/wired/DESIGN.md",
+      "external": "https://getdesign.md/wired/design-md"
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "subtitle": "金融与支付",
+      "category": "finance",
+      "categoryLabel": "金融与支付",
+      "kind": "reference",
+      "description": "International money transfer. Bright green accent, friendly and clear",
+      "tags": [
+        "金融与支付",
+        "品牌参考"
+      ],
+      "accent": "#9fe870",
+      "design": "../design-md/wise/DESIGN.md",
+      "external": "https://getdesign.md/wise/design-md"
+    },
+    {
+      "id": "x.ai",
+      "name": "xAI",
+      "subtitle": "AI 与大模型",
+      "category": "ai",
+      "categoryLabel": "AI 与大模型",
+      "kind": "reference",
+      "description": "Elon Musk's AI lab. Stark monochrome, futuristic minimalism",
+      "tags": [
+        "AI 与大模型",
+        "品牌参考"
+      ],
+      "accent": "#ffffff",
+      "design": "../design-md/x.ai/DESIGN.md",
+      "external": "https://getdesign.md/x.ai/design-md"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "subtitle": "效率与 SaaS",
+      "category": "productivity",
+      "categoryLabel": "效率与 SaaS",
+      "kind": "reference",
+      "description": "Automation platform. Warm orange, friendly illustration-driven",
+      "tags": [
+        "效率与 SaaS",
+        "品牌参考"
+      ],
+      "accent": "#ff4f00",
+      "design": "../design-md/zapier/DESIGN.md",
+      "external": "https://getdesign.md/zapier/design-md"
+    }
+  ]
+}

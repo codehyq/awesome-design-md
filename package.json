@@ -1,0 +1,10 @@
+{
+  "name": "awesome-design-md-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "catalog": "node scripts/build-catalog.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
